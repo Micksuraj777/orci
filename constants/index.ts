@@ -22,7 +22,7 @@ export const FEATURES = [
     icon: '/tech.svg',
     // variant: 'blueb-50',
     description:
-      'We have a team of researchers and developers who are specialized in the field of artificial intelligence and 3D printing',
+      'We have a team of researchers and developers who are specialized in the field of artificial muscle and 3D printing',
   },
   {
     title: 'Ecommerce Online Store',
@@ -52,16 +52,16 @@ export const FOOTER_LINKS = [
   },
 ];
 
-export const FOOTER_CONTACT_INFO = {
-  title: 'Contact',
-  links: [
-    {
-      label: 'Email Us',
-      value: 'infomantoworld@gmail.com', 
-      href: 'mailto:infomantoworld@gmail.com',
-    },
-  ],
-};
+// export const FOOTER_CONTACT_INFO = {
+//   title: 'Contact',
+//   links: [
+//     {
+//       label: 'Email Us',
+//       value: 'infomantoworld@gmail.com', 
+//       href: 'mailto:infomantoworld@gmail.com',
+//     },
+//   ],
+// };
 
 export const SOCIALS = {
   title: 'Social',
@@ -70,5 +70,6 @@ export const SOCIALS = {
     { src: '/instagram.svg', url: 'https://www.instagram.com/fofus.keychains?igsh=aDA4YzU3cnBuZzU5' },
     { src: '/twitter.svg', url: 'https://www.twitter.com' },
     { src: '/linkedin.svg', url: 'https://www.linkedin.com/company/orci-linkedin/' },
+    { src: '/email.png', url: 'mailto:info@orcibusiness.com' }, // Corrected email address
   ],
 };

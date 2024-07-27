@@ -53,7 +53,7 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite 
           backgroundImage="bg-bg-img-1"
-          title="Artificial Intelligence & Development"
+          title="Artificial Muscle & Soft Robotics"
           subtitle="In the Modern Era of Technology"
           peopleJoined="10+ Joined"
         />
