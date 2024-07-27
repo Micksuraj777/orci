@@ -7,13 +7,13 @@ const Hero = () => {
       <div className="hero-map" />
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-        <Image 
+        {/* <Image 
           src="/orci.png"
           alt="camp"
           width={50}
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
-        />
+        /> */}
         <h1 className="bold-52 lg:bold-88">Welcome to ORCI</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
         Welcome to our organization ORCI. We specialize in developing small-scale businesses and helping them grow. Our team of experts is dedicated to making your business attractive and professional. Let us help you take your business to the next level.
