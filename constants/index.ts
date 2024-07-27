@@ -70,6 +70,6 @@ export const SOCIALS = {
     { src: '/instagram.svg', url: 'https://www.instagram.com/fofus.keychains?igsh=aDA4YzU3cnBuZzU5' },
     { src: '/twitter.svg', url: 'https://www.twitter.com' },
     { src: '/linkedin.svg', url: 'https://www.linkedin.com/company/orci-linkedin/' },
-    { src: '/email.png', url: 'mailto:info@orcibusiness.com' }, // Corrected email address
+    { src: '/email.png', url: 'mailto:infomantoworld@gmail.com' },
   ],
 };
