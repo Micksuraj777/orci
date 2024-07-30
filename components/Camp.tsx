@@ -3,19 +3,20 @@ import Image from "next/image";
 
 interface CampProps {
   backgroundImage: string;
+  icon: string;
   title: string;
   subtitle: string;
   peopleJoined: string;
 }
 
-const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps) => {
+const CampSite = ({ backgroundImage,icon, title, subtitle, peopleJoined }: CampProps) => {
   return (
     <div className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>
      <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
       <div className="flexCenter gap-4">
         <div className="rounded-full bg-green-50 p-4">
           <Image
-            src="/folded-map.svg"
+            src={`${icon}`}
             alt="map"
             width={28}
             height={28}
@@ -53,14 +54,37 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite 
           backgroundImage="bg-bg-img-1"
-          title="Artificial Muscle & Soft Robotics"
-          subtitle="In the Modern Era of Technology"
+          icon="/research.svg"
+          title="Research"
+          subtitle="Soft robotics/artificial muscle,IOT devices and communication,3D printing"
           peopleJoined="10+ Joined"
         />
         <CampSite 
           backgroundImage="bg-bg-img-2"
-          title="3D Printing Expertise"
-          subtitle="In the Modern Era of Creativity"
+          icon="/doc.svg"
+          title="Engineering Documentation"
+          subtitle="Research assistance,Patent assistance"
+          peopleJoined="10+ Joined"
+        />
+        <CampSite 
+          backgroundImage="bg-bg-img-3"
+          icon="/man.svg"
+          title="Manufacturing Assistance"
+          subtitle="CNC,3D printing,Laser engraving and bender,Prototyping"
+          peopleJoined="10+ Joined"
+        />
+        <CampSite 
+          backgroundImage="bg-bg-img-4"
+          icon="/circuit.svg"
+          title="Electronics"
+          subtitle="Pcb designing,Embedded programming"
+          peopleJoined="10+ Joined"
+        />
+        <CampSite 
+          backgroundImage="bg-bg-img-5"
+          icon="/buss.svg"
+          title="Business assistance"
+          subtitle="Market assess,Startup support"
           peopleJoined="10+ Joined"
         />
       </div>

@@ -18,18 +18,39 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Research & Development',
-    icon: '/tech.svg',
+    title: 'Research',
+    icon: '/research.svg',
     // variant: 'blueb-50',
     description:
-      'We have a team of researchers and developers who are specialized in the field of artificial muscle and 3D printing',
+      'ORCI specializes in soft robotics, IoT devices, and 3D printing, offering advanced automation, seamless connectivity, and precise prototyping for innovative, efficient industry solutions.',
   },
   {
-    title: 'Ecommerce Online Store',
-    icon: '/calendar.svg',
+    title: 'Engineering Documentation',
+    icon: '/doc.svg',
     // variant: 'blueb-50',
     description:
-      "A ecommerce website which small scale business can use to sell their products and services to a larger audience.",
+      "ORCI provides expert research assistance and patent support, including data analysis and precise documentation, to streamline research processes and protect innovations through comprehensive engineering documentation.",
+  },
+  {
+    title: 'Manufacturing Assistance',
+    icon: '/man.svg',
+    // variant: 'blueb-50',
+    description:
+      "ORCI offers manufacturing assistance with 3D printing, laser engraving, and bending, along with prototyping services, ensuring precision and efficiency in producing custom parts and solutions.",
+  },
+  {
+    title: 'Electronics',
+    icon: '/circuit.svg',
+    // variant: 'blueb-50',
+    description:
+      "ORCI provides expert PCB design and embedded programming services, delivering precision and innovation in electronics to drive your projects with efficiency and reliability.",
+  },
+  {
+    title: 'Business Assistance',
+    icon: '/buss.svg',
+    // variant: 'blueb-50',
+    description:
+      "ORCI offers professional market assessment and startup support, delivering expert business assistance to enhance strategic planning, optimize growth, and drive success in competitive landscapes.",
   },
 ];
 
@@ -47,8 +68,8 @@ export const FOOTER_LINKS = [
   //   ],
   // },
   {
-    title: 'Our Partner',
-    links: ['fofus.keychains'],
+    title: 'Our Client',
+    links: ['fofus keychains','Artsy fusion','Mi fashion'],
   },
 ];
 

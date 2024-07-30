@@ -34,7 +34,10 @@ module.exports = {
       },
       backgroundImage: {
         'bg-img-1': "url('/ai.jpeg')",
-        'bg-img-2': "url('/printer.webp')",
+        'bg-img-2': "url('/doc2.jpg')",
+        'bg-img-3': "url('/manufacture.jpg')",
+        'bg-img-4': "url('/electronics.jpg')",
+        'bg-img-5': "url('/bussiness.jpg')",
         'feature-bg': "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
