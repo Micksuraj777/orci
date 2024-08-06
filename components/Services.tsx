@@ -1,8 +1,8 @@
 import { FEATURES } from '@/constants'
 import Image from 'next/image'
-import React from 'react'
+import cn from 'classnames';
 
-const Features = () => {
+const Services = () => {
   return (
     <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24">
       <div className="max-container padding-container relative w-full flex justify-end">
@@ -34,6 +34,8 @@ const Features = () => {
                 title={feature.title} 
                 icon={feature.icon}
                 description={feature.description}
+                link={feature.link}
+                linkdata={feature.linkdata}
               />
             ))}
           </ul>
@@ -47,9 +49,11 @@ type FeatureItem = {
   title: string;
   icon: string;
   description: string;
+  link:string;
+  linkdata:string;
 }
 
-const FeatureItem = ({ title, icon, description }: FeatureItem) => {
+const FeatureItem = ({ title, icon, description,link,linkdata }: FeatureItem) => {
   return (
     <li className="flex w-full flex-1 flex-col items-start">
       <div className="rounded-full p-4 lg:p-7 bg-[#3034af]">
@@ -61,8 +65,18 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
       <p className="regular-16 mt-5 bg-white/80 text-gray-30 lg:mt-[30px] lg:bg-none">
         {description}
       </p>
+      <a
+      href={link}
+      target='_blank'
+      className={cn({
+        'p-2 text-white bg-[#3034af] mt-3 rounded-lg text-sm hover:bg-transparent hover:border-2 hover:border-[#3034af] hover:text-[#3034af]': title === 'Portfolio building',
+        'hidden': title !== 'Portfolio building',
+      })}
+    >
+      {linkdata}
+    </a>
     </li>
   )
 }
 
-export default Features
+export default Services

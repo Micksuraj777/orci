@@ -1,3 +1,5 @@
+
+
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
@@ -20,37 +22,50 @@ export const FEATURES = [
   {
     title: 'Research',
     icon: '/research.svg',
-    // variant: 'blueb-50',
     description:
       'ORCI specializes in soft robotics, IoT devices, and 3D printing, offering advanced automation, seamless connectivity, and precise prototyping for innovative, efficient industry solutions.',
+    linkdata:"",
+      link:"",
   },
   {
     title: 'Engineering Documentation',
     icon: '/doc.svg',
-    // variant: 'blueb-50',
     description:
       "ORCI provides expert research assistance and patent support, including data analysis and precise documentation, to streamline research processes and protect innovations through comprehensive engineering documentation.",
+    linkdata:"",
+      link:"",
   },
   {
     title: 'Manufacturing Assistance',
     icon: '/man.svg',
-    // variant: 'blueb-50',
     description:
       "ORCI offers manufacturing assistance with 3D printing, laser engraving, and bending, along with prototyping services, ensuring precision and efficiency in producing custom parts and solutions.",
+    linkdata:"",
+      link:"",
   },
   {
     title: 'Electronics',
     icon: '/circuit.svg',
-    // variant: 'blueb-50',
     description:
       "ORCI provides expert PCB design and embedded programming services, delivering precision and innovation in electronics to drive your projects with efficiency and reliability.",
+    linkdata:"",
+      link:"",
   },
   {
     title: 'Business Assistance',
     icon: '/buss.svg',
-    // variant: 'blueb-50',
     description:
       "ORCI offers professional market assessment and startup support, delivering expert business assistance to enhance strategic planning, optimize growth, and drive success in competitive landscapes.",
+    linkdata:"",
+      link:"",
+  },
+  {
+    title: 'Portfolio building',
+    icon: '/portfolio.png',
+    description:
+      "ORCI offers expert portfolio website building services, tailored for professionals seeking to enhance their online presence and stand out in job interviews.",
+    linkdata:"View Sample",
+      link: 'https://mick.portfolio.orci.in/',
   },
 ];
 
@@ -68,7 +83,7 @@ export const FOOTER_LINKS = [
   //   ],
   // },
   {
-    title: 'Our Client',
+    title: 'Our Clients',
     links: ['fofus keychains','Artsy fusion','Mi fashion'],
   },
 ];
